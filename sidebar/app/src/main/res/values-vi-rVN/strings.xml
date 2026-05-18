@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Sidebar</string>
-
-    <!-- SettingsFragment -->
+    <!--SettingsFragment-->
     <string name="enable_sideline">Sử dụng thanh bên</string>
     <string name="sidebar_label">Thanh bên</string>
     <string name="sidebar_summary">Mở nhanh ứng dụng trong cửa sổ nổi</string>
@@ -13,25 +13,22 @@
     <string name="sidebar_auto_enable_selected_apps_summary">Tự động hiển thị thanh bên khi mở các ứng dụng đã cấu hình</string>
     <string name="sidebar_per_app_config">Cấu hình ứng dụng</string>
     <string name="sidebar_per_app_config_summary">Chọn ứng dụng sẽ tự động bật thanh bên</string>
-
     <!-- Sidebar customization -->
     <string name="sidebar_customization_title">Tùy chỉnh thanh bên</string>
-
     <!-- Sections -->
     <string name="sidebar_section_slider">Cài đặt thanh trượt</string>
     <string name="sidebar_section_layout">Cài đặt bố cục</string>
     <string name="sidebar_section_visual">Hiệu ứng hiển thị</string>
-
+    <string name="sidebar_section_gestures">Gesture settings</string>
     <!-- Slider settings -->
     <string name="sidebar_transparency_value">Độ trong suốt: %1$.2f</string>
     <string name="sidebar_length_value">Chiều dài thanh trượt: %1$d px</string>
+    <string name="sidebar_width_value">Slider width: %1$d</string>
     <string name="sidebar_position_label">Vị trí</string>
     <string name="sidebar_left">Bên trái</string>
     <string name="sidebar_right">Bên phải</string>
-
     <!-- Layout settings -->
     <plurals name="sidebar_columns_value">
-        <item quantity="one">%1$d cột</item>
         <item quantity="other">%1$d cột</item>
     </plurals>
     <string name="sidebar_icon_size_value">Kích thước biểu tượng: %1$d dp</string>
@@ -42,8 +39,11 @@
     <string name="sidebar_corner_radius_value">Bo góc: %1$d dp</string>
     <string name="sidebar_bg_transparency_value">Độ trong suốt nền: %1$.2f</string>
     <string name="sidebar_reset_defaults">Đặt lại mặc định</string>
-
     <!-- Visual effects -->
     <string name="sidebar_drop_shadow_title">Đổ bóng</string>
     <string name="sidebar_drop_shadow_summary">Thêm hiệu ứng bóng cho thanh bên</string>
+    <string name="sidebar_tap_to_open_title">Open drawer on tap</string>
+    <string name="sidebar_tap_to_open_summary">Open the sidebar drawer when the slider is tapped</string>
+    <string name="sidebar_swipe_to_open_title">Open drawer on swipe</string>
+    <string name="sidebar_swipe_to_open_summary">Open the sidebar drawer when the slider is swiped horizontally</string>
 </resources>
